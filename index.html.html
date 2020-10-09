@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style type="text/css">
+		div{
+			width: 20%;
+			height: 780px;
+			background-color: white;
+			margin: 70px auto 20px;
+			border: solid;
+			border-radius: 20px;
+			background-image: url(./img/80.png);
+		}
+
+		h2{
+			text-align: center;
+		}
+		p{
+			position: relative;
+			top: 20px;
+			left: 50px;
+		}
+
+		.u{
+			height: 25px;
+		}
+		.us{
+			height: 25px;
+			width: 143px;
+		}
+		.u1{
+			height: 31px;
+		}
+		.u2{
+			height: 80px;
+		}
+
+		.st{
+
+			height: 50px;
+			background-color: orange;
+			border: sold;
+			border-color: orange;
+			border-radius: 10px;
+		}
+
+	</style>
+
+</head>
+<body style="background-image: url(./img/78.png);">
+	
+	<div>
+		<h2>Оформление заказа</h2>
+		<p>
+			Имя:<br>
+			<input type="text" name="name" size="35" maxlength="37" class="u"><br><br>
+			Фамилия:<br>
+			<input type="text" name="fist-name" size="35" maxlength="37" class="u"><br><br>
+			Телефон:<br>
+			<select name="phone" size="1" class="u1">
+				<option value="Россия">Россия +7</option>
+				<option value="Казахстан">Казахстан +7</option>
+				<option value="Украин">Украина +380</option>
+				<option value="Узбекистан">Узбекистан +998</option>
+			</select>
+			<input type="number" name="phone1" size="16" maxlength="20" class="us"><br><br>
+			E-mail:<br>
+			<input type="text" name="email" size="35" maxlength="37" class="u"><br><br>
+			Адрес доставки:<br>
+			<input type="text" name="address" size="35" maxlength="37" class="u"><br><br>
+			Оплата:<br>
+			<input type="radio" name="check">Карта<br>
+			<input type="radio" name="check">Наличными<br><br>
+			Выбор доставки:<br>
+			<select name="choose" size="1" class="u">
+				<option>Выберите способ доставки</option>
+				<option value="Самовызов">Самовызов</option>
+				<option value="Курьерская служба">Курьерская служба</option>
+				<option value="Экспресс-доставка">Экспресс-доставка</option>
+				<option value="Почтовая служба">Почтовая служба</option>
+			</select><br><br>
+			Комментарии к заказу:<br>
+			<input type="text" name="message" size="35" maxlength="120" class="u2"><br><br><br>
+			<a href="zad1.2.html"><input type="submit" name="oformit" value="Оформить заказ" class="st" ></a>
+
+		</p>
+	</div>	
+</body>
+</html>
