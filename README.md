@@ -1,1 +1,1 @@
-# vendrigo.github.io-lab3-zad1
+# vendrigo.github.io/lab3/zad1
